@@ -73,10 +73,3 @@ dots.forEach((dot, index) => {
 });
 
 updateBanner();
-
-function goToNextSlide() {
-    currentIndex = (currentIndex + 1) % numberOfSlides;
-    updateBanner();
-    updateSelectedDot();
-}
-const interval = setInterval(goToNextSlide, 3000);
