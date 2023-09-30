@@ -43,7 +43,7 @@ for (let i = 0; i < numberOfSlides; i++) {
 
 const dots = document.querySelectorAll("#banner .dots .dot");
 
-dots[currentIndex].classList.add("dot_selected"); // Utilisez la classe "dot_selected" pour le point actuel
+dots[currentIndex].classList.add("dot_selected");
 
 function updateBanner() {
     const bannerImage = document.querySelector("#banner .banner-img");
